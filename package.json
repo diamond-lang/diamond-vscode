@@ -1,0 +1,25 @@
+{
+    "name": "diamond-lang",
+    "displayName": "diamond lang",
+    "description": "Syntax highlighting for diamond lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "diamond",
+            "aliases": ["diamond", "diamond"],
+            "extensions": [".dm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "diamond",
+            "scopeName": "source.diamond",
+            "path": "./syntaxes/diamond.tmLanguage.json"
+        }]
+    }
+}

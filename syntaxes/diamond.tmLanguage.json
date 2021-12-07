@@ -33,12 +33,16 @@
 			}]
 		},
 		"keywords": {
+			"name": "keyword.diamond",
 			"patterns": [{
 				"name": "keyword.control.diamond",
 				"match": "\\b(if|else|return)\\b"
 			}, {
 				"name": "storage.type.diamond",
 				"match": "\\bfunction\\b"
+			}, {
+				"name": "keyword.control.diamond",
+				"match": "\\bnot\\b"
 			}]
 		},
 		"strings": {
@@ -67,7 +71,7 @@
 			"name": "entity.diamond",
 			"patterns": [{
 				"name": "entity.name.function",
-				"match": "(?<=function\\s+)[a-zA-Z_][a-zA-Z0-9_]*"
+				"match": "[a-zA-Z_][a-zA-Z0-9_]*(?=\\()"
 			}]
 		},
 		"operators": {
@@ -81,15 +85,14 @@
 				"match": "(\\+|\\*|\\-|/)"
 			},
 			{
-				"name": "keyword.operator.logical.diamond",
-				"match": "\\bnot\\b"
+				"name": "keyword.control.diamond",
+				"match": "\\bbe\\b"
 			},
 			{
 				"name": "keyword.operator.assignment.diamond",
-				"match": "(=|\\bbe\\b)"
+				"match": "="
 			}
-		]
-		}
+		]}
 	},
 	"scopeName": "source.diamond"
 }

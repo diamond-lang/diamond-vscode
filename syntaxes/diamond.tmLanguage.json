@@ -83,6 +83,10 @@
 			{
 				"name": "keyword.operator.logical.diamond",
 				"match": "\\bnot\\b"
+			},
+			{
+				"name": "keyword.operator.assignment.diamond",
+				"match": "(=|\\bbe\\b)"
 			}
 		]
 		}

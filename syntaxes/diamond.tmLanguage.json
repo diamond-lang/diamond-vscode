@@ -27,7 +27,7 @@
 	"repository": {
 		"comments": {
 			"patterns": [{
-				"name": "comment.block",
+				"name": "comment.block.diamond",
 				"begin": "---",
 				"end": "---" 
 			}, {
@@ -75,7 +75,7 @@
 						"name": "storage.type.diamond"
 					},
 					"2": {
-						"name": "entity.name.function"
+						"name": "entity.name.function.diamond"
 					},
 					"3": {
 						"patterns": [{
@@ -85,12 +85,12 @@
 					}
 				}
 			}, {
-				"name": "entity.name.function",
+				"name": "entity.name.function.diamond",
 				"match": "[a-zA-Z_][a-zA-Z0-9_]*(?=\\()"
 			}]
 		},
 		"operators": {
-			"name": "keyword.operator",
+			"name": "keyword.operator.diamond",
 			"patterns": [{
 				"name": "keyword.operator.comparison.diamond",
 				"match": "(==|!=|<=|<|=>|>)"
@@ -107,7 +107,11 @@
 				"name": "keyword.operator.assignment.diamond",
 				"match": "="
 			}
-		]}
+		]},
+		"variables": {
+			"name": "variable.diamond",
+			"match": "[a-zA-Z_][a-zA-Z0-9_]*"
+		}
 	},
 	"scopeName": "source.diamond"
 }

@@ -109,7 +109,7 @@
 			}
 		]},
 		"variables": {
-			"name": "variable.diamond",
+			"name": "variable.other.diamond",
 			"match": "[a-zA-Z_][a-zA-Z0-9_]*"
 		}
 	},

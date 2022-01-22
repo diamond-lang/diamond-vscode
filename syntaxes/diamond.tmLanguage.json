@@ -106,6 +106,9 @@
 			{
 				"name": "keyword.operator.assignment.diamond",
 				"match": "="
+			},{
+				"name": "keyword.assignment.diamond",
+				"match": "\\bnonlocal\\b"
 			}
 		]},
 		"variables": {

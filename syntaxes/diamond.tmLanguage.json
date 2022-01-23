@@ -39,7 +39,7 @@
 			"name": "keyword.diamond",
 			"patterns": [{
 				"name": "keyword.control.diamond",
-				"match": "\\b(if|else|return)\\b"
+				"match": "\\b(if|else|return|while)\\b"
 			}, {
 				"name": "keyword.control.diamond",
 				"match": "\\bnot\\b"

@@ -18,6 +18,9 @@
 			"include": "#functions"
 		},
 		{
+			"include": "#types"
+		},
+		{
 			"include": "#operators"
 		},
 		{
@@ -88,6 +91,10 @@
 				"name": "entity.name.function.diamond",
 				"match": "[a-zA-Z_][a-zA-Z0-9_]*(?=\\()"
 			}]
+		},
+		"types": {
+			"name": "entity.name.type.diamond",
+			"match": "\\b(type)\\b"
 		},
 		"operators": {
 			"name": "keyword.operator.diamond",

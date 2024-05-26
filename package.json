@@ -9,6 +9,11 @@
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diamond-lang/vscode.git"
+    },
+    "icon": "images/diamond-logo.png",
     "contributes": {
         "languages": [{
             "id": "diamond",

@@ -2,7 +2,7 @@
     "name": "diamond-lang",
     "displayName": "diamond",
     "description": "Syntax highlighting for diamond programming language",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -16,16 +16,25 @@
     "icon": "images/diamond-logo.png",
     "publisher": "diamond-lang",
     "contributes": {
-        "languages": [{
-            "id": "diamond",
-            "aliases": ["diamond", "diamond"],
-            "extensions": [".dmd"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "diamond",
-            "scopeName": "source.diamond",
-            "path": "./syntaxes/diamond.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "diamond",
+                "aliases": [
+                    "diamond",
+                    "diamond"
+                ],
+                "extensions": [
+                    ".dmd"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "diamond",
+                "scopeName": "source.diamond",
+                "path": "./syntaxes/diamond.tmLanguage.json"
+            }
+        ]
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "diamond-lang",
-    "displayName": "diamond Language Support",
+    "displayName": "Diamond Language Support",
     "description": "Syntax highlighting for the diamond programming language",
     "version": "0.0.4",
     "engines": {

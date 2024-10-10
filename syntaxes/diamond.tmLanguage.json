@@ -89,7 +89,7 @@
 			"patterns": [
 				{
 					"begin": "(function|interface|builtin|extern)\\s+([a-zA-Z_][a-zA-Z0-9_]*|\\+|-|\\*|==|!=|<=|<|>=|>|\\*|\\/|%|\\[\\])\\s*(\\[.*\\])?\\s*\\(",
-					"end": "\\):\\s*(mut)?\\s*(.*)?",
+					"end": "\\)(:\\s*(mut)?\\s*(.*)?)?",
 					"beginCaptures": {
 						"1": {
 							"name": "storage.type.function.diamond"
@@ -107,10 +107,10 @@
 						}
 					},
 					"endCaptures": {
-						"1": {
+						"2": {
 							"name": "keyword.other.diamond"
 						},
-						"2": {
+						"3": {
 							"name": "entity.name.type.diamond"
 						}
 					},

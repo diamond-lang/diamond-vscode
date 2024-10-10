@@ -2,7 +2,7 @@
     "name": "diamond-lang",
     "displayName": "Diamond Language Support",
     "description": "Syntax highlighting for the diamond programming language",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.62.0"
     },
